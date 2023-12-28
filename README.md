@@ -39,7 +39,13 @@ Make sure you have the following installed:
    pip install -r requirements.txt
    ```
 
-4. Run the Streamlit app:
+4. Install [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) & point to it:
+
+   ```bash
+   pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+   ```
+   
+5. Run the Streamlit app:
    
     ```bash
     streamlit run app.py
