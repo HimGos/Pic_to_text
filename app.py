@@ -23,7 +23,7 @@ if image:
 # Add a footer
 footer = """
 <hr>
-<p style="text-align:center;">By - Himanshu Goswami</p>
+<p style="text-align:center;">By - Himanshu Goswami 🖖</p>
 """
 
 st.markdown(footer, unsafe_allow_html=True)
